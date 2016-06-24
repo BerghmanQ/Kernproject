@@ -1,0 +1,1031 @@
+body{
+	width: 95%;
+	height: 100%;
+	background-image: url("Images/16.04.26_1.jpg");
+   /* background-image: url("Images/16.04.26_1.jpg");*/
+	background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.body2{
+	/* width: 95%;
+	height: 100%;*/
+	background-image: url("Images/muziek.jpg");
+	/*background-size: cover; */
+}
+
+.body3{
+	/*width: 95%;
+	height: 100%;*/
+	background-image: url("Images/drama.jpg") no-repeat;
+	/*background-size: cover;*/
+}
+
+.body4{
+	/*width: 95%;
+	height: 100%;*/
+	background-image: url("Images/dans.jpg") no-repeat;
+	/*background-size: cover;*/
+}
+
+img {
+	position: absolute;
+}
+
+.onder_foto{
+	
+    z-index:2;
+     	 -webkit-animation: glow 3s ease-in-out infinite;
+  	animation: glow 3s ease-in-out infinite;
+}
+
+.onder_wit{
+	
+    z-index:1;
+}
+
+.foto1 {
+    z-index:3;
+}
+.foto2 {
+    z-index:0;
+}
+.foto3{
+    z-index:-1;
+}
+
+.foto4{
+    z-index:-2;
+}
+.foto5{
+    z-index:-3;
+}
+.foto6{
+    z-index:-4;
+}
+
+.foto7{
+    z-index:-5;
+}
+
+.foto8{
+    z-index: 3;
+}
+.foto9{
+    z-index: -6;
+}
+
+.foto10{
+    z-index: -7;
+}
+
+.foto11{
+    z-index: -8;
+}
+
+.page2 .muziek{
+	position: absolute;
+	top: 21.5em;
+	right: 22.5em;
+	height: 202px;
+	width: 199px;	 
+/*	background-image:url("../Images/officiele/vlakMuziekPg2.png");*/
+	background-repeat: no-repeat;
+	cursor:pointer;
+}
+
+.page3 .drama{
+	position: absolute;
+	top: 9em;
+	right: 37em;
+	height: 306px;
+	width: 413px;	 
+	/*background-image:url("../Images/officiele/vlakDramaPg2.png");*/
+	background-repeat: no-repeat;
+	cursor:pointer;
+}
+
+.page4 .dans{
+	position: absolute;
+	bottom: 0em;
+	left: 48em;
+	width: 166px;
+	height:123px;
+/*	background-image:url("../Images/officiele/vlakDansPg2.png");*/
+	background-repeat: no-repeat;
+	cursor:pointer;
+}
+
+.page1 .muziek {
+	position: absolute;
+	top: 24em;
+	right: 23.5em;
+	height: 349px;
+	width: 417px;
+	/*background-image:url("../Images/officiele/vlakMuziekPg1.png");*/
+	background-repeat:no-repeat;
+	cursor:pointer;
+ 
+
+}
+
+.muziek:hover{
+    
+    opacity: 0.5;
+    -webkit-animation-name: none;
+    
+}
+
+.page1 .drama {
+	position: absolute;
+	top: 8.5em;
+	left:0em;
+	height: 453px;
+	width: 778px;
+	/*background-image:url("../Images/officiele/vlakDramaPg1.png");*/
+	background-repeat:no-repeat;
+	cursor:pointer;
+
+
+}
+.drama:hover{
+    opacity: 0.5;
+    -webkit-animation-name: none;
+    
+}
+
+.page1 .dans {
+position: absolute;
+top: 41em; 
+right: 24em;
+width: 880px;
+height: 220px;
+/*background-image:url("../Images/officiele/vlakDansPg1.png");*/
+background-repeat:no-repeat;
+cursor:pointer;
+
+
+}
+
+.dans:hover{
+   
+    opacity: 0.5;
+    -webkit-animation-name: none;
+    
+}
+
+.link1 {
+	position: absolute;
+	top: 60em;
+	right: 71.5em;
+	height: 2em;
+	width: 2em;
+	background-color: white;
+	border-radius: 50%;
+}
+
+.link2 {
+	position: absolute;
+	top: 60em;
+	right: 78em;
+	height: 2em;
+	width: 2em;
+	background-color: white;
+	border-radius: 50%;
+}
+
+.link3 {
+	position: absolute;
+	top: 58em;
+	right: 120em;
+	height: 2em;
+	width: 2em;
+	background-color: white;
+	border-radius: 50%;
+}
+
+.link4 {
+	position: absolute;
+	top: 58.5em;
+	right: 113.5em;
+	height: 2em;
+	width: 2em;
+	background-color: white;
+	border-radius: 50%;
+}
+
+
+
+.bubble 
+{
+	position: relative;
+	color: white;
+	top: 51em;
+	left: 57em;
+	width: 375px;
+	height: 65px;
+	padding: 0px;
+	background: grey;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+.bubble:after 
+{
+	content: '';
+	position: absolute;
+	border-style: solid;
+	border-width: 15px 15px 0;
+	border-color: grey transparent;
+	display: block;
+	width: 0;
+	z-index: 1;
+	bottom: -15px;
+	left: 172px;
+}
+
+.quote1 {
+	width: auto;
+	padding: 5px;
+	top: 51em;
+	right: 57em;
+	position:absolute;
+	-webkit-animation: glow none;
+}
+
+.quote2 {
+	width: auto;
+	padding: 5px;
+	top: 51em;
+	right: 57em;
+	position:absolute;
+	-webkit-animation: glow none;
+}
+
+.quote3 {
+	padding: 5px;
+	top: 50em;
+	left: 10em;
+	position:absolute;
+	-webkit-animation: glow none;
+}
+
+.quote4 {
+	padding: 5px;
+	top: 50em;
+	left: 15em;
+	position:absolute;
+	-webkit-animation: glow none;
+}
+
+.video_dans1 iframe{
+	position: absolute;
+	z-index: 99;
+	height: 16em;
+	width: 21em;
+	top: 2em;
+	right: 70em;
+}
+
+.video_dans2 iframe{
+	position: absolute;
+	z-index: 99;
+	height: 16em;
+	width: 21em;
+	top: 2em;
+	right: 40em;
+}
+
+.video_drama1 iframe{
+	position: absolute;
+	z-index: 99;
+	height: 16em;
+	width: 21em;
+	top: 2em;
+	right: 10em;
+}
+
+.video_drama2 iframe{
+	position: absolute;
+	z-index: 99;
+	height: 16em;
+	width: 21em;
+	top: 2em;
+	right: 40em;
+}
+
+.video_muziek1 iframe{
+	position: absolute;
+	z-index: 99;
+	height: 16em;
+	width: 21em;
+	top: 2em;
+	right: 50em;
+}
+
+.video_muziek2 iframe{
+	position: absolute;
+	z-index: 99;
+	height: 16em;
+	width: 21em;
+	top: 2em;
+	right: 20em;
+}
+
+.onzichtbaar {
+	display: none;
+}
+
+.zichtbaar {
+	display: block;
+}
+
+.woord1{
+	padding: 5px;
+	top: 15em;
+	left: 15em;
+	color: white;
+	font-size: 2em;
+	font-style: oblique;
+	font-weight: bold;
+	position:absolute;
+	-webkit-animation: glow none;
+}
+
+.woord2{
+	padding: 5px;
+	top: 18em;
+	left: 20em;
+	font-size: 2em;
+	font-style: oblique;
+	font-weight: bold;
+	color: white;
+	position:absolute;
+	-webkit-animation: glow none;
+}
+
+.woord3{
+	padding: 5px;
+	top: 15em;
+	left: 15em;
+	font-size: 2em;
+	font-style: oblique;
+	font-weight: bold;
+	color: white;
+	position:absolute;
+	-webkit-animation: glow none;
+}
+
+.woord4{
+	padding: 5px;
+	top: 18em;
+	left: 20em;
+	font-size: 2em;
+	font-style: oblique;
+	font-weight: bold;
+	color: white;
+	position:absolute;
+	-webkit-animation: glow none;
+}
+
+.woord5{
+	padding: 5px;
+	top: 15em;
+	left: 45em;
+	font-size: 2em;
+	font-style: oblique;
+	font-weight: bold;
+	color: white;
+	position:absolute;
+	-webkit-animation: glow none;
+}
+
+.woord6{
+	padding: 5px;
+	top: 18em;
+	left: 50em;
+	font-size: 2em;
+	font-style: oblique;
+	font-weight: bold;
+	color: white;
+	position:absolute;
+	-webkit-animation: glow none;
+}
+
+button {
+	background-color: transparent;
+    z-index: 4;
+  	border-radius: 3px;
+  	
+  	/*Om de glow functie te gebruiken*/
+ 
+ 	 -webkit-animation: glow 3s ease-in-out infinite;
+  	animation: glow 3s ease-in-out infinite;
+  
+}
+
+/* Video homepage css */
+
+.videoContainer {
+	position:absolute;
+	height:100%;
+	width:100%;
+	overflow: hidden;
+	z-index:999;
+	background-color:black;
+ }
+            
+.videoContainer iframe {
+	min-width: 100%;
+	min-height: 95%;
+}
+            
+.videoContainer button{
+	height:20px;
+	width:auto;
+	background-color:white;
+ 	color:black;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+} 
+
+/*Opmaak verwijderen buttons*/
+input, button, submit { border:none; } 
+
+/*Reload of terug gaan knop*/
+.triangle{
+	width: 0;
+	height: 0;
+	z-index:-10;
+	position: fixed;
+	border-style: solid;
+	border-width: 200px 200px 0 0;
+	border-color: #7da856 transparent transparent transparent;
+}
+
+.dak{
+	width:300px;
+	height:50px;
+	background-color:black;
+	opacity: 0.7;
+	position:absolute;
+	-ms-transform: rotate(22deg); /* IE 9 */
+    -webkit-transform: rotate(22deg); /* Chrome, Safari, Opera */
+    transform: rotate(22deg);
+    margin-left:41%;
+    margin-top:5%;
+    cursor:pointer;
+}
+
+/*Glow*/
+/*hier wordt de glow functie aangemaakt, opacity wordt vermeerderd van 0.1 naar 0.5 en terug*/
+@-webkit-keyframes glow 
+{
+  50% { opacity: 0.1;}
+}
+
+@keyframes glow 
+{
+  50% { opacity: 0.5; }
+}
+
+/*@-webkit-keyframes vlakken 
+{
+  from { background-color: #749a02; -webkit-box-shadow: 0 0 9px #333; }
+  50% { background-color: #91bd09; -webkit-box-shadow: 0 0 18px #91bd09; }
+  to { background-color: #749a02; -webkit-box-shadow: 0 0 9px #333; }
+}
+*/
+
+/* MEDIAQUERIES - RESPONSIVE */
+
+/*Nicolas*/
+@media (min-height: 1082px){
+	
+	.page1 .muziek{
+		position:absolute;
+		
+		top: 30em;
+		right:20em;
+		background-size: contain;
+		transform: rotate(-2deg);
+		width: 293px;
+		height:200px;
+	}
+	 .page1 .drama{
+		
+		position:absolute;
+		top: 26em;
+		left: 0em;
+		height:200px;
+		width: 800px;
+		-ms-transform: rotate(-40deg); /* IE 9 */
+	    -webkit-transform: rotate(-40deg); /* Chrome, Safari, Opera */
+	    transform: rotate(-40deg);
+	    background-size: contain;
+	}
+	
+		 .page1 .dans{
+		position:absolute;
+		top: 45em; 
+		right: 45em;
+		width:35%;
+		-ms-transform: rotate(8deg); /* IE 9 */
+	    -webkit-transform: rotate(8deg); /* Chrome, Safari, Opera */
+	    transform: rotate(8deg);
+	}
+	
+	.page1 .dak {
+		width:393px;
+		height:75px;
+		transform:rotate(18deg);
+		margin-left:41%;
+		margin-top:76px;
+	}
+	
+	.link1, .link2, .link3, .link4 {
+		position: absolute;
+		top: 80em;
+	}
+	.link4{
+		left: 31em;
+	}
+	.link3{
+		left: 35em;
+	}
+	.link2{
+		top:81em;
+		right:91em;
+	}
+	.link1{
+		top: 82em;
+		right: 95em;
+	}
+	
+	.bubble {
+		top: 72em;
+	}
+	.quote4 {
+		left: 18em;
+	}
+	.quote3{
+		left: 21em;
+	}
+	.quote2{
+		left: 93.5em;
+	}
+	.quote1{
+		left: 103.5em;
+	}
+	
+	.page2 .muziek{
+		
+	
+		top: 20em;
+		right: 22em;
+	}
+	.page3 .drama{
+		left: 10em;
+		top: 18em;
+		}
+	
+}
+
+/*Lore 1980 x 1020*/
+@media (max-width: 1921px) and (max-height: 1081px){
+	 .page1 .muziek{
+		position:absolute;
+		top: 20em;
+		right: 19.7em;
+		background-size: contain;
+		transform: rotate(-2deg);
+		width: 293px;
+	}
+	 .page1 .drama{
+	
+		position:absolute;
+		top: 9.6em;
+		left: 4em;
+		height:448px;
+		width: 750px;
+		-ms-transform: rotate(-7deg); /* IE 9 */
+	    -webkit-transform: rotate(-7deg); /* Chrome, Safari, Opera */
+	    transform: rotate(-7deg);
+	    background-size: contain;
+	}
+	
+		 .page1 .dans{
+		position:absolute;
+		top: 28em; 
+		right: 26em;
+		width:800px;
+	}
+	
+	.page1 .dak {
+		width:393px;
+		height:75px;
+		transform:rotate(18deg);
+		margin-left:41%;
+		margin-top:76px;
+	}
+	
+	 .page2 .muziek{
+		position:absolute;
+		top: 16.5em;
+		right: 18em;
+		background-size: contain;
+		width: 195px;
+		transform: rotate(-3deg);
+		
+	}
+	
+	.page3 .drama{
+		position:absolute;
+		top: 10em;
+		left:8em;
+		height:420px;
+		-ms-transform: rotate(-7deg); /* IE 9 */
+    -webkit-transform: rotate(-7deg); /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+	}
+	
+	.page4 .dans{
+		position:absolute;
+		top: 55em;
+		left:39.5em;
+		height:123px;
+		-ms-transform: rotate(-7deg); /* IE 9 */
+    -webkit-transform: rotate(-7deg); /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+	}
+	
+	.link1 { 
+	position: absolute;
+	top: 60em;
+	right: 71.5em;
+	height: 2em;
+	width: 2em;
+	background-color: white;
+	border-radius: 50%;
+	}
+	
+	.link2 {
+	position: absolute;
+	top: 60em;
+	right: 78em;
+	height: 2em;
+	width: 2em;
+	background-color: white;
+	border-radius: 50%;
+	}
+	
+	.link3 {
+	position: absolute;
+	top: 58em;
+	left: 22em;
+	height: 2em;
+	width: 2em;
+	background-color: white;
+	border-radius: 50%;
+	}
+	
+	.link4 {
+	position: absolute;
+	top: 58.5em;
+	left: 31em;
+	height: 2em;
+	width: 2em;
+	background-color: white;
+	border-radius: 50%;
+	}
+	
+	
+	
+	.bubble 
+	{
+	position: relative;
+	color: white;
+	top: 51em;
+	left: 57em;
+	width: 375px;
+	height: 65px;
+	padding: 0px;
+	background: grey;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	}
+
+
+	.quote1 {
+		width: auto;
+		padding: 5px;
+		top: 51em;
+		right: 57em;
+		position:absolute;
+		-webkit-animation: glow none;
+	}
+	
+	.quote2 {
+		width: auto;
+		padding: 5px;
+		top: 51em;
+		right: 57em;
+		position:absolute;
+		-webkit-animation: glow none;
+	}
+	
+	.quote3 {
+		padding: 5px;
+		top: 50em;
+		left: 10em;
+		position:absolute;
+		-webkit-animation: glow none;
+	}
+	
+	.quote4 {
+		padding: 5px;
+		top: 50em;
+		left: 15em;
+		position:absolute;
+		-webkit-animation: glow none;
+	}
+	
+	 
+
+}
+	
+/* Jinse 1366 x 768 */
+@media (min-width: 1300px) and (max-width: 1439px) {
+	.page1 .muziek{
+		position:absolute;
+		top: 8em;
+		right: 13.2em;
+		
+		-ms-transform: rotate(-2deg); /* IE 9 */
+   		-webkit-transform: rotate(-2deg); /* Chrome, Safari, Opera */
+   		 transform: rotate(-2deg);
+		
+	}
+	 .page1 .drama{
+	
+		position:absolute;
+		top: 7.5em;
+		left:-15em;
+		height:420px;
+		-ms-transform: rotate(-7deg); /* IE 9 */
+    -webkit-transform: rotate(-7deg); /* Chrome, Safari, Opera */
+    transform: rotate(-7deg);
+	}
+	
+	.page1 .dans{
+		position:absolute;
+		top: 21em; 
+		right: 22em;
+		width:420px;
+		background-size: 500px;
+		
+	}
+	
+	.page2 .muziek{
+		top: 11.5em;
+		right: 8.9em;
+		height: 136px;
+		width: 190px;
+		background-size: contain;
+	}
+	
+	.page3 .drama{
+		top: 6.7em;
+		right: 69.5em;
+		height: 210px;
+		width: 350px;
+		background-size: contain;
+	}
+	
+	.page4 .dans{
+		position: absolute;
+		bottom: -7em;
+		left: 28em;
+		height: 247px;
+		width: 101px;
+		background-size: contain;
+	}
+	
+	.link1, .link2, .link3, .link4 {
+		height: 1.5em;
+		width: 1.5em;
+	}
+	
+	.link1 {
+		top: 40em;
+		left: 15.5em;
+	}
+	
+	.link2 {
+		top: 40em;
+		left: 20.2em;
+	}
+	
+	.link3 {		
+		top: 41em;
+		left: 45.7em;
+	}
+	
+	.link4 {
+		top: 41.2em;
+		left: 49.8em;
+	}
+	
+	.quote1 {
+		top: 32em;
+		left: 2.3em;
+	}
+	
+	.quote2 {
+		top: 32em;
+		left: 7em;
+	}
+	
+	.quote3 {
+		top: 33em;
+		left: 32.5em;
+	}
+	
+	.quote4 {
+		top: 33.2em;
+		left: 36.5em;
+	}
+	
+	.page1 .dak {
+		width: 320px;
+		height: 45px;
+		top: -1em;
+	}
+}
+
+/* Quinten desktop */
+@media (min-width: 1440px) and (max-width: 1699px) {
+	.page1 .dak{
+		width:293px;
+		height:42px;
+	}
+	.page1 .muziek{
+		position:absolute;
+		top: 17em;
+		right: 17.9em;
+		height: 301px;
+		width: 273px;
+		-ms-transform: rotate(-2deg); /* IE 9 */
+   		-webkit-transform: rotate(-2deg); /* Chrome, Safari, Opera */
+   		 transform: rotate(-2deg);
+   		 background-size: contain;
+		
+	}
+	 .page1 .drama{
+	
+		position:absolute;
+		top: 10.5em;
+		left:-15em;
+		height:420px;
+		-ms-transform: rotate(-7deg); /* IE 9 */
+   		-webkit-transform: rotate(-7deg); /* Chrome, Safari, Opera */
+    	transform: rotate(-7deg);
+	}
+	
+	.page1 .dans{
+		position:absolute;
+		top: 30em; 
+		right: 29em;
+		width:420px;
+		background-size: 500px;
+		
+	}
+	
+	.page2 .muziek{
+		top: 15.5em;
+		right: 12.5em;
+		height: 143px;
+		width: 190px;
+		background-size: contain;
+	}
+	
+	.page3 .drama{
+		top: 9em;
+		right: 89em;
+		height: 210px;
+		width: 350px;
+		background-size: contain;
+	}
+	
+	.page4 .dans{
+		position: absolute;
+		bottom: -7em;
+		left: 36em;
+		height: 247px;
+		width: 127px;
+		background-size: contain;
+	}
+	
+	.link1 { 
+	position: absolute;
+	top: 54em;
+	right: 41.5em;
+	height: 2em;
+	width: 2em;
+	background-color: white;
+	border-radius: 50%;
+	}
+	
+	.link2 { 
+	position: absolute;
+	top: 56em;
+	right: 66em;
+	height: 2em;
+	width: 2em;
+	background-color: white;
+	border-radius: 50%;
+	}
+	.link3 { 
+	position: absolute;
+	top: 54em;
+	right: 100.5em;
+	height: 2em;
+	width: 2em;
+	background-color: white;
+	border-radius: 50%;
+	}
+	.link4 { 
+	position: absolute;
+	top: 54em;
+	right: 109em;
+	height: 2em;
+	width: 2em;
+	background-color: white;
+	border-radius: 50%;
+	}
+	
+	.quote4{
+		top:45em;
+		left:4em;
+	}
+	
+	.quote3{
+		top:45em;
+		left:12em;
+	}
+	
+		.quote1{
+		top:46em;
+		left:71em;
+		right:32em;
+	}
+	
+	.quote2{
+		top:45em;
+		left:47em;
+	}
+	
+	.page6 .video_drama2 iframe{
+		right:27em;
+	}
+	
+	.page6 .video_drama1 iframe{
+		right:2em;
+	}
+	
+	.page5 .video_muziek1 iframe{
+		right:32em;
+	}
+	
+	.page5 .video_muziek2 iframe{
+		right:2em;
+	}
+	
+	.video_dans2 iframe{
+		right:45em;
+	}
+/*	.video_muziek1 iframe{
+		right:;
+	}
+	
+	.video_muziek1 iframe*/
+		
+}
+
+@media (min-width: 980px) and (max-width: 1299px) {
+ 	
+      
+    }
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+	
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+
+}
